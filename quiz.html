@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>JavaScript Quiz Game</title>
+</head>
+
+<body>
+    <div id="quiz-container">
+        <div id="question-container"></div>
+        <div id="answer-buttons" class="btn-container"></div>
+        <button id="restart-btn" class="btn" onclick="startQuiz()" style="display: none;">Restart</button>
+        <button id="home-btn" class="btn" onclick="goHome()" style="display: none;">Home</button>
+        <p id="score">Score: 0</p>
+    </div>
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
