@@ -1,3 +1,10 @@
+/* 
+=======================================================================
+  Base Styling
+=======================================================================
+*/
+
+/* Set the font family for the entire document */
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -10,6 +17,13 @@ body {
     overflow: hidden;
 }
 
+/* 
+=======================================================================
+  Quiz Container Styling
+=======================================================================
+*/
+
+/* Styling for the main quiz container */
 #quiz-container {
     max-width: 600px;
     text-align: center;
@@ -21,23 +35,45 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover effect on the quiz container for a subtle scale and box shadow change */
 #quiz-container:hover {
     transform: scale(1.02);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
+/* 
+=======================================================================
+  Question Container Styling
+=======================================================================
+*/
+
+/* Styling for the question text */
 #question-container {
     font-size: 24px;
     margin-bottom: 20px;
     color: #333333;
 }
 
+/* 
+=======================================================================
+  Answer Button Container Styling
+=======================================================================
+*/
+
+/* Styling for the answer buttons container */
 .btn-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* 
+=======================================================================
+  Answer Button Styling
+=======================================================================
+*/
+
+/* Styling for the answer buttons */
 .btn {
     margin: 10px;
     padding: 15px 25px;
@@ -53,24 +89,40 @@ body {
     transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
 
+/* Hover effect on the answer buttons for a scale increase and box shadow change */
 .btn:hover {
     background: linear-gradient(to right, #21906e, #27ae60);
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+/* 
+=======================================================================
+  Submit Button Styling
+=======================================================================
+*/
+
+/* Styling for the submit button */
 #submit-btn {
     margin-top: 30px;
     background: linear-gradient(to right, #3498db, #2980b9);
     transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
 
+/* Hover effect on the submit button for a scale increase and box shadow change */
 #submit-btn:hover {
     background: linear-gradient(to right, #2980b9, #2574a9);
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+/* 
+=======================================================================
+  Score Display Styling
+=======================================================================
+*/
+
+/* Styling for the score display */
 #score {
     margin-top: 30px;
     font-size: 18px;
@@ -80,6 +132,7 @@ body {
     transition: text-shadow 0.3s ease, color 0.3s ease;
 }
 
+/* Hover effect on the score display for a text-shadow change and color shift */
 #score:hover {
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
     color: #c0392b;
